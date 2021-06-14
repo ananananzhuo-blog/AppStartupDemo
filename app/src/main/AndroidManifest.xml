@@ -19,10 +19,12 @@
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="${applicationId}.androidx-startup"
-            android:exported="false"
-          >
+            android:exported="false">
             <meta-data
                 android:name="com.ananananzhuo.appstartupdemo.PersonInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="com.ananananzhuo.appstartupdemo.NoodleInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>
