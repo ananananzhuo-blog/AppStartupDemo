@@ -12,11 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        AppInitializer.getInstance(this)
-            .initializeComponent(AndroidInitializer::class.java)
 
-        logEE(Car.getInstance("小汽车：").toString())
-        logEE(Car.getInstance("小汽车：").toString())
-        logEE(Car.getInstance("小汽车：").toString())
+        Person.getInstance("杜甫").eat()
     }
 }

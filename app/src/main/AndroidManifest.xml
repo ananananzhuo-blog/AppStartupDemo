@@ -22,7 +22,7 @@
             android:exported="false"
           >
             <meta-data
-                android:name="com.ananananzhuo.appstartupdemo.AndroidInitializer"
+                android:name="com.ananananzhuo.appstartupdemo.PersonInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>
