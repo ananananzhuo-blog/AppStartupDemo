@@ -18,11 +18,11 @@
         </activity>
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="${applicationId}.androidx-startup"
+            android:authorities="com.ananananzhuo.appstartupdemo.androidx-startup"
             android:exported="false"
           >
             <meta-data
-                android:name="com.ananananzhuo.appstartupdemo.AndroidInitializer"
+                android:name="com.ananananzhuo.library.LibraryInitializer"
                 android:value="androidx.startup" />
         </provider>
     </application>
